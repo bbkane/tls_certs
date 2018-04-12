@@ -1,0 +1,8 @@
+---
+# Small playbook to start you out
+- hosts: all
+  gather_facts: false
+  tasks:
+  - name: Hello World
+    command: echo Hello World
+
