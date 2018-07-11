@@ -1,3 +1,7 @@
 # This should be generated
 ssh_config
 .vagrant/
+
+# roles should be in their own repos
+# (TODO: is this overkill)
+roles/
