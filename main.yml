@@ -1,13 +1,10 @@
 ---
 # Small playbook to start you out
-- hosts: all
+- hosts: all  # TODO: remember that I put this here
   gather_facts: false
   tasks:
-  - name: Hello World
-    command: echo Hello World
-  - name: Include Hello World role
+  # - name: Hello World
+  #   command: echo Hello World
+  - name: Pre-Setup
     include_role:
-      name: hello_world
-    vars:
-      hello_world_greet_me: bbkane
-
+      name: pre_setup

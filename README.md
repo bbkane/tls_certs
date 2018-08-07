@@ -1,12 +1,7 @@
-This is a starter repo for using Vagrant + Ansible in a fairly clean way.
-I've created [a blog
-post](https://bbkane.github.io/2017/10/27/An-Isolated-and-Reproducible-Ansible-and-Vagrant-Setup.html)
-for this repo to follow.
+# Notes
 
-# Goals
+Using https://deliciousbrains.com/ssl-certificate-authority-for-local-https-development/
 
-- Be cleanly installable/uninstallable. If everyone moves to containers, I want to be able to cleanly get rid of this.
-- Be reproducible on any computer.
 
 # Usage
 
@@ -38,10 +33,3 @@ ansible all -m ping
 ```
 ansible-playbook main.yml
 ```
-
-# TODO
-
-- Add a playbook that lets the nodes more easily talk to each other (SSH keys
-  and hostnames, instead of raw IP addresses).
-- Create an Ansible node to provision the other VMs. Then the only dependency
-  will be Vagrant and this will more easily work with Windows.

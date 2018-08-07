@@ -3,11 +3,11 @@
 
 boxes = [
   {
-    hostname: 'node1',
+    hostname: 'host',
     ip: '192.168.33.10'
   },
   {
-    hostname: 'node2',
+    hostname: 'client',
     ip: '192.168.33.11'
   }
 ]
