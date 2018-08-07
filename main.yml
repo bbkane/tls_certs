@@ -5,4 +5,9 @@
   tasks:
   - name: Hello World
     command: echo Hello World
+  - name: Include Hello World role
+    include_role:
+      name: hello_world
+    vars:
+      hello_world_greet_me: bbkane
 
