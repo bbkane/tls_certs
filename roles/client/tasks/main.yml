@@ -1,0 +1,2 @@
+- name: hello from client
+  command: echo hello from client

@@ -1,0 +1,5 @@
+- name: Push server to ~
+  copy:
+    src: simple-https-server.py
+    dest: ~/simple-https-server.py
+    mode: 0700
